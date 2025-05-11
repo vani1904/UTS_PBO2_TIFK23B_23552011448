@@ -19,7 +19,7 @@ Program Kasir Asuransi ini adalah aplikasi kasir untuk melakukan transaksi pemba
 
 ## Struktur Program
 
-KasirAsuransiApp/
+**KasirAsuransiApp/
 │
 ├── src/
 │ └── kasir/
@@ -30,7 +30,7 @@ KasirAsuransiApp/
 │ ├── Asuransi.java // Abstract class (Abstraction + Polymorphism)
 │ ├── Kesehatan.java // Subclass dari Asuransi (Inheritance)
 │ ├── Jiwa.java // Subclass dari Asuransi (Inheritance)
-│ └── LayananAsuransi.java // Interface (Abstraction)
+│ └── LayananAsuransi.java // Interface (Abstraction)**
 
 ## Cara Menjalankan
 
