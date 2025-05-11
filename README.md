@@ -1,4 +1,12 @@
-# Kasir Asuransi
+# Kasus 8: Kasir Asuransi
+
+## Identitas
+- Nama: Ripani Nuraprianti
+- Kelas: TIF K23B
+- NIM: 23552011448
+- Kasus: 8 (Kasir Asuransi
+
+## Deskripsi
 
 Program Kasir Asuransi ini adalah aplikasi kasir untuk melakukan transaksi pembayaran premi asuransi menggunakan konsep-konsep pemrograman berorientasi objek seperti inheritance, polymorphism, encapsulation, dan abstraction. Program ini dibuat menggunakan bahasa Java di NetBeans.
 
@@ -11,16 +19,21 @@ Program Kasir Asuransi ini adalah aplikasi kasir untuk melakukan transaksi pemba
 
 ## Struktur Program
 
-- **Main Class**: `KasirAsuransi` - kelas utama untuk menjalankan aplikasi.
-- **Classes**:
-  - `Nasabah` (kelas induk)
-  - `NasabahAsuransi` (kelas turunan yang mewarisi dari `Nasabah`)
-  - `PembayaranPremi` (kelas untuk mengelola transaksi pembayaran premi)
-  - `ProdukAsuransi` (kelas untuk mengelola produk asuransi)
-- **Metode Utama**:
-  - Menambahkan nasabah
-  - Menghitung total pembayaran premi
-  - Menampilkan laporan transaksi
+KasirAsuransiApp/
+│
+├── src/
+│   └── kasir/
+│       ├── KasirAsuransiApp.java          // Main class untuk menjalankan program
+│       ├── Nasabah.java                   // Class untuk data nasabah (encapsulation)
+│       ├── Polis.java                     // Class untuk data polis asuransi
+│       ├── Klaim.java                     // Class untuk data klaim
+│       ├── Asuransi.java                  // Superclass (abstraction + polymorphism)
+│       ├── Kesehatan.java                 // Subclass dari Asuransi (inheritance)
+│       ├── Jiwa.java                      // Subclass dari Asuransi (inheritance)
+│       └── LayananAsuransi.java           // Interface (abstraction)
+│
+└── README.md                              // Dokumentasi proyek
+
 
 ## Cara Menjalankan
 
