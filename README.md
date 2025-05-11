@@ -22,18 +22,15 @@ Program Kasir Asuransi ini adalah aplikasi kasir untuk melakukan transaksi pemba
 KasirAsuransiApp/
 │
 ├── src/
-│   └── kasir/
-│       ├── KasirAsuransiApp.java          // Main class untuk menjalankan program
-│       ├── Nasabah.java                   // Class untuk data nasabah (encapsulation)
-│       ├── Polis.java                     // Class untuk data polis asuransi
-│       ├── Klaim.java                     // Class untuk data klaim
-│       ├── Asuransi.java                  // Superclass (abstraction + polymorphism)
-│       ├── Kesehatan.java                 // Subclass dari Asuransi (inheritance)
-│       ├── Jiwa.java                      // Subclass dari Asuransi (inheritance)
-│       └── LayananAsuransi.java           // Interface (abstraction)
-│
-└── README.md                              // Dokumentasi proyek
-
+│ └── kasir/
+│ ├── KasirAsuransiApp.java // Main class untuk menjalankan program
+│ ├── Nasabah.java // Class untuk data nasabah (Encapsulation)
+│ ├── Polis.java // Class untuk data polis asuransi
+│ ├── Klaim.java // Class untuk data klaim asuransi
+│ ├── Asuransi.java // Abstract class (Abstraction + Polymorphism)
+│ ├── Kesehatan.java // Subclass dari Asuransi (Inheritance)
+│ ├── Jiwa.java // Subclass dari Asuransi (Inheritance)
+│ └── LayananAsuransi.java // Interface (Abstraction)
 
 ## Cara Menjalankan
 
